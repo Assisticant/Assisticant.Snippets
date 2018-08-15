@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Assisticant.Snippets</id>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <authors>David Piepgrass</authors>
     <owners>Michael L Perry</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -11,7 +11,7 @@
     <iconUrl>http://assisticant.net/images/logosmall.png</iconUrl>
     <description>Code snippets for Assisticant.</description>
     <language>en-US</language>
-    <tags>mvvm viewmodel databinding inotifypropertychanged inpc wpf silverlight wp7</tags>
+    <tags>mvvm viewmodel databinding inotifypropertychanged inpc wpf</tags>
   </metadata>
   <files>
     <file src="content\Readme_Assisticant_Snippets.txt" target="content\Readme_Assisticant_Snippets.txt" />

@@ -16,11 +16,11 @@ $snippetFolder = "Assisticant"
 
 # Actual script start
 $source = "$toolsPath\*.snippet"
-$vsVersions = @("2005", "2008", "2010", "2012", "2013", "2015")
+$vsVersions = @("2005", "2008", "2010", "2012", "2013", "2015", "2017")
 
 Foreach ($vsVersion in $vsVersions)
 {
-	$myCodeSnippetsFolder = "$HOME\My Documents\Visual Studio $vsVersion\Code Snippets\Visual C#\My Code Snippets\"
+	$myCodeSnippetsFolder = "$HOME\Documents\Visual Studio $vsVersion\Code Snippets\Visual C#\My Code Snippets\"
 
 	if (Test-Path $myCodeSnippetsFolder)
 	{

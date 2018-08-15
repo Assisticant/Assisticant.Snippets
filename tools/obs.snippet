@@ -26,8 +26,8 @@
 			<Code Language="csharp"><![CDATA[private Observable<$type$> _$name$ = new Observable<$type$>(default($type$));
 		public $type$ $name$
 		{
-			get { return _$name$; }
-			set { _$name$.Value = value; }
+			get => _$name$;
+			set => _$name$.Value = value;
 		}]]>
 			</Code>
 		</Snippet>
