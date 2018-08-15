@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Assisticant.Snippets</id>
+    <version>1.1.0</version>
+    <authors>David Piepgrass</authors>
+    <owners>Michael L Perry</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://assisticant.net/license</licenseUrl>
+    <projectUrl>http://assisticant.net/</projectUrl>
+    <iconUrl>http://assisticant.net/images/logosmall.png</iconUrl>
+    <description>Code snippets for Assisticant.</description>
+    <language>en-US</language>
+    <tags>mvvm viewmodel databinding inotifypropertychanged inpc wpf silverlight wp7</tags>
+  </metadata>
+  <files>
+    <file src="content\Readme_Assisticant_Snippets.txt" target="content\Readme_Assisticant_Snippets.txt" />
+    <file src="tools\comp.snippet" target="tools\comp.snippet" />
+    <file src="tools\compList.snippet" target="tools\compList.snippet" />
+    <file src="tools\install.ps1" target="tools\install.ps1" />
+    <file src="tools\obs.snippet" target="tools\obs.snippet" />
+    <file src="tools\obsList.snippet" target="tools\obsList.snippet" />
+    <file src="tools\uninstall.ps1" target="tools\uninstall.ps1" />
+  </files>
+</package>
